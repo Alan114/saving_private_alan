@@ -1,7 +1,7 @@
-const did = "jesam"
+console.log('STARTING EVERYTHING')
+import './index.css'
 
-let p = "sadsad"
+import { createElements, boxContainer } from './elements/elements'
 
-console.log(did)
-console.log(p)
-console.log('reloaddsasdas')
+boxContainer()
+
