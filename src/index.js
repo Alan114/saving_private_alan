@@ -1,7 +1,16 @@
-console.log('STARTING EVERYTHING')
 import './index.css'
+import TitleComponent from './elements/title/title'
 
-import { createElements, boxContainer } from './elements/elements'
+const root = document.getElementById('app')
+const App = {
 
-boxContainer()
+  view: () => m('div#main-container', [
+    m(TitleComponent),
+    
+  ])
+} 
+
+m.mount(root, App)
+
+
 
