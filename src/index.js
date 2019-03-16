@@ -6,6 +6,12 @@ const App = {
 
   view: () => m('div#main-container', [
     m(TitleComponent),
+    m('div#input-container',[
+      m('input'),
+      m('h2','X'),
+      m('input')
+    ]),
+    m('button','Generate grid')
     
   ])
 } 
