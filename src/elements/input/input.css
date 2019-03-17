@@ -1,0 +1,9 @@
+.grid-input {
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    border: 2px solid orange;
+    box-shadow: 0px 3px rgba(174, 174, 197, 0.3); 
+    font-size: 50px;
+    text-align: center;
+}
