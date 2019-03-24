@@ -1,0 +1,11 @@
+.default-button {
+
+    padding: 15px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: salmon;
+    cursor: pointer;
+
+}
