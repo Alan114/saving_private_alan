@@ -3,6 +3,7 @@ import TitleComponent from './elements/title/title'
 import InputComponent from './elements/input/input'
 import { changeInputX, changeInputY } from './store/state';
 import ButtonComponent from './elements/button/button'
+import ParagraphComponent from './elements/p-component/p'
 
 const root = document.getElementById('app')
 const App = {
@@ -19,7 +20,8 @@ const App = {
     }),
     m(ButtonComponent, {
       
-    })
+    }),
+    m(ParagraphComponent)
     
   ])
 } 
